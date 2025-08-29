@@ -4,149 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Comercio Universitario Transacción Interna</title>
-<<<<<<< HEAD
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        header {
-            width: 100%;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        h1 {
-            color: #333;
-            font-size: 2.5em;
-        }
-        
-        nav {
-            background-color: #333;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            padding: 10px 0;
-            border-radius: 8px;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-            margin: 0 10px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        nav a:hover {
-            background-color: #575757;
-        }
-        
-        /* Contenido de la pagina */
-        .content-section {
-            width: 90%;
-            max-width: 1200px;
-            margin-top: 20px;
-        }
-
-        .content-section h2 {
-            text-align: center;
-            color: #555;
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-
-        .cards-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-        }
-
-        .card {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        }
-        
-        /* Estilos específicos para historias de usuario */
-        .card-user-story .card-header {
-            font-size: 1.2em;
-            font-weight: bold;
-            color: #555;
-            margin-bottom: 10px;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 5px;
-        }
-        
-        .card-user-story .card-body p {
-            margin: 5px 0;
-            line-height: 1.5;
-        }
-        
-        .card-user-story .card-body .keyword {
-            font-weight: bold;
-            color: #007BFF;
-        }
-
-        /* Estilos específicos para diseño de interfaces */
-        .card-design-interface {
-            text-align: center;
-        }
-
-        .card-design-interface img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-            margin-bottom: 10px;
-        }
-        
-        .card-design-interface .card-description {
-            font-style: italic;
-            color: #777;
-            margin-bottom: 5px;
-        }
-
-        .card-design-interface .card-author {
-            font-weight: bold;
-            color: #333;
-        }
-
-    </style>
-=======
     <link rel="stylesheet" href="css/estilos.css">
->>>>>>> review-organizado
+    <link rel="stylesheet" href="css/tarjetas.css">
+
 </head>
 <body>
 
     <header>
         <h1>Sistema de Comercio Universitario Transacción Interna</h1>
         <nav>
-<<<<<<< HEAD
-            <a href="#" onclick="showSection('user-stories')">Historias de usuario</a>
-            <a href="#" onclick="showSection('interfaces')">Diseño de interfaces</a>
-        </nav>
-    </header>
-
-    <main class="content-section" id="main-content">
-        </main>
-    
-    <script>
-        const userStoriesHTML = `
-=======
             <a href="#user-stories">Historias de usuario</a>
             <a href="#interfaces">Diseño de interfaces</a>
         </nav>
@@ -155,84 +21,81 @@
     <main class="content-section">
         <!-- Historias de usuario -->
         <section id="user-stories" class="tab-section active">
->>>>>>> review-organizado
-            <h2>Historias de usuario</h2>
-            <div class="cards-grid">
-                <div class="card card-user-story" style="background-color: lightblue;">
-                    <div class="card-header">Alex Franco</div>
-                    <div class="card-body">
-                        <p><span class="keyword">Como</span> estudiante,</p>
-                        <p><span class="keyword">Quiero</span> poder ver mi historial de compras,</p>
-                        <p><span class="keyword">Para</span> llevar un registro de mis gastos.</p>
-                    </div>
-                </div>
+           <h2>Nuestro equipo</h2>
 
-                <div class="card card-user-story">
-                    <div class="card-header">María García</div>
-                    <div class="card-body">
-                        <p><span class="keyword">Como</span> usuario registrado,</p>
-                        <p><span class="keyword">Quiero</span> restablecer mi contraseña,</p>
-                        <p><span class="keyword">Para</span> recuperar el acceso a mi cuenta.</p>
-                    </div>
-                </div>
+<!-- Rejilla de tarjetas de colaboradores -->
+<div class="team-grid">
 
-                <div class="card card-user-story">
-                    <div class="card-header">Carlos López</div>
-                    <div class="card-body">
-                        <p><span class="keyword">Como</span> administrador,</p>
-                        <p><span class="keyword">Quiero</span> agregar nuevos productos al inventario,</p>
-                        <p><span class="keyword">Para</span> mantener la tienda actualizada.</p>
-                    </div>
-                </div>
-<<<<<<< HEAD
-                
-=======
+  <!-- Tarjeta 1 -->
+  <article class="team-card">
+    <div class="card-media">
 
->>>>>>> review-organizado
-                <div class="card card-user-story">
-                    <div class="card-header">Ana Torres</div>
-                    <div class="card-body">
-                        <p><span class="keyword">Como</span> visitante del sitio,</p>
-                        <p><span class="keyword">Quiero</span> buscar productos por categoría,</p>
-                        <p><span class="keyword">Para</span> encontrar lo que necesito más rápido.</p>
-                    </div>
-                </div>
+      <img src="imagenes/1.png" alt="Foto de colaborador 1" loading="lazy">
+    </div>
+    <header class="card-header">
+      
+      <h3>Adony Joshue Espinal</h3>
+      
+    </header>
+    <p class="card-text">Bienvenido a nuestras historias de usuario</p>
+    <!-- Cambia el destino del botón si quieres ir a otra página o sección -->
+    <a class="card-btn" href="colaborador1.html">Abrir</a>
+  </article>
 
-                <div class="card card-user-story">
-                    <div class="card-header">Pedro Gómez</div>
-                    <div class="card-body">
-                        <p><span class="keyword">Como</span> cliente,</p>
-                        <p><span class="keyword">Quiero</span> dejar una reseña en un producto,</p>
-                        <p><span class="keyword">Para</span> compartir mi opinión con otros usuarios.</p>
-                    </div>
-                </div>
-<<<<<<< HEAD
-                
-=======
+  <!-- Tarjeta 2 -->
+  <article class="team-card">
+    <div class="card-media">
+      <img src="imagenes/1.png" alt="Foto de colaborador 2" loading="lazy">
+    </div>
+    <header class="card-header">
+      <h3>Dereck Farick Vera </h3>
+      
+    </header>
+    <p class="card-text">Bienvenido a nuestras historias de usuario</p>
+    <a class="card-btn" href="colaborador2.html">Abrir</a>
+  </article>
 
->>>>>>> review-organizado
-                <div class="card card-user-story">
-                    <div class="card-header">Laura Díaz</div>
-                    <div class="card-body">
-                        <p><span class="keyword">Como</span> desarrollador,</p>
-                        <p><span class="keyword">Quiero</span> una API de pagos segura,</p>
-                        <p><span class="keyword">Para</span> procesar transacciones de manera confiable.</p>
-                    </div>
-                </div>
-            </div>
-<<<<<<< HEAD
-        `;
+  <!-- Tarjeta 3 -->
+  <article class="team-card">
+    <div class="card-media">
+      <img src="imagenes/1.png" alt="Foto de colaborador 3" loading="lazy">
+    </div>
+    <header class="card-header">
+      <h3>Marlon Alexander Vega</h3>
+      
+    </header>
+    <p class="card-text">Bienvenido a nuestras historias de usuario</p>
+    <a class="card-btn" href="colaborador3.html">Abrir</a>
+  </article>
 
-        const interfacesHTML = `
-            <h2>Diseño de interfaces</h2>
-            <div class="cards-grid">
-                <div class="card card-design-interface" style="background-color: lightblue;">
-                    <img src="login.png" alt="Diseño de interfaz de login">
-                    <div class="card-description">Un diseño de interfaz simple y moderno para la página de inicio de sesión.</div>
-                    <div class="card-author">Autor: Juan Pérez</div>
-                </div>
-                
-=======
+  <!-- Tarjeta 4 -->
+  <article class="team-card">
+    <div class="card-media">
+      <img src="imagenes/1.png" alt="Foto de colaborador 4" loading="lazy">
+    </div>
+    <header class="card-header">
+      <h3>Kyotto Yordano Murillo</h3>
+     
+    </header>
+    <p class="card-text">Bienvenido a nuestras historias de usuario</p>
+    <a class="card-btn" href="colaborador4.html">Abrir</a>
+  </article>
+
+  <!-- Tarjeta 5 -->
+  <article class="team-card">
+    <div class="card-media">
+      <img src="imagenes/1.png" alt="Foto de colaborador 5" loading="lazy">
+    </div>
+    <header class="card-header">
+      <h3>Antonio Lopez Lasso</h3>
+      
+    </header>
+    <p class="card-text">Bienvenido a nuestras historias de usuario</p>
+    <a class="card-btn" href="colaborador5.html">Abrir</a>
+  </article>
+
+</div>
+<!-- /Rejilla de tarjetas -->
         </section>
 
         <!-- Diseño de interfaces -->
@@ -245,17 +108,11 @@
                     <div class="card-author">Autor: Juan Pérez</div>
                 </div>
 
->>>>>>> review-organizado
                 <div class="card card-design-interface">
                     <img src="https://via.placeholder.com/300" alt="Diseño de la página principal">
                     <div class="card-description">Página principal con un enfoque minimalista para mejorar la navegación.</div>
                     <div class="card-author">Autor: Sofía Rodríguez</div>
                 </div>
-<<<<<<< HEAD
-                
-=======
-
->>>>>>> review-organizado
                 <div class="card card-design-interface">
                     <img src="https://via.placeholder.com/300" alt="Diseño de la página de productos">
                     <div class="card-description">Diseño de la galería de productos, optimizado para la búsqueda por categorías.</div>
@@ -280,31 +137,10 @@
                     <div class="card-author">Autor: Elena Fernández</div>
                 </div>
             </div>
-<<<<<<< HEAD
-        `;
-        
-        // Función para mostrar la sección correcta
-        function showSection(section) {
-            const mainContent = document.getElementById('main-content');
-            if (section === 'user-stories') {
-                mainContent.innerHTML = userStoriesHTML;
-            } else if (section === 'interfaces') {
-                mainContent.innerHTML = interfacesHTML;
-            }
-        }
-        
-        // Muestra las historias de usuario por defecto al cargar la página
-        document.addEventListener('DOMContentLoaded', () => {
-            showSection('user-stories');
-        });
-
-    </script>
-=======
         </section>
 
     </main>
 
     <script src="js/main.js"></script>
->>>>>>> review-organizado
 </body>
 </html>
