@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Comercio Universitario Transacción Interna</title>
+<<<<<<< HEAD
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -125,12 +126,16 @@
         }
 
     </style>
+=======
+    <link rel="stylesheet" href="css/estilos.css">
+>>>>>>> review-organizado
 </head>
 <body>
 
     <header>
         <h1>Sistema de Comercio Universitario Transacción Interna</h1>
         <nav>
+<<<<<<< HEAD
             <a href="#" onclick="showSection('user-stories')">Historias de usuario</a>
             <a href="#" onclick="showSection('interfaces')">Diseño de interfaces</a>
         </nav>
@@ -141,6 +146,16 @@
     
     <script>
         const userStoriesHTML = `
+=======
+            <a href="#user-stories">Historias de usuario</a>
+            <a href="#interfaces">Diseño de interfaces</a>
+        </nav>
+    </header>
+
+    <main class="content-section">
+        <!-- Historias de usuario -->
+        <section id="user-stories" class="tab-section active">
+>>>>>>> review-organizado
             <h2>Historias de usuario</h2>
             <div class="cards-grid">
                 <div class="card card-user-story" style="background-color: lightblue;">
@@ -169,7 +184,11 @@
                         <p><span class="keyword">Para</span> mantener la tienda actualizada.</p>
                     </div>
                 </div>
+<<<<<<< HEAD
                 
+=======
+
+>>>>>>> review-organizado
                 <div class="card card-user-story">
                     <div class="card-header">Ana Torres</div>
                     <div class="card-body">
@@ -187,7 +206,11 @@
                         <p><span class="keyword">Para</span> compartir mi opinión con otros usuarios.</p>
                     </div>
                 </div>
+<<<<<<< HEAD
                 
+=======
+
+>>>>>>> review-organizado
                 <div class="card card-user-story">
                     <div class="card-header">Laura Díaz</div>
                     <div class="card-body">
@@ -197,6 +220,7 @@
                     </div>
                 </div>
             </div>
+<<<<<<< HEAD
         `;
 
         const interfacesHTML = `
@@ -208,12 +232,30 @@
                     <div class="card-author">Autor: Juan Pérez</div>
                 </div>
                 
+=======
+        </section>
+
+        <!-- Diseño de interfaces -->
+        <section id="interfaces" class="tab-section">
+            <h2>Diseño de interfaces</h2>
+            <div class="cards-grid">
+                <div class="card card-design-interface" style="background-color: lightblue;">
+                    <img src="imagenes/login.png" alt="Diseño de interfaz de login">
+                    <div class="card-description">Un diseño de interfaz simple y moderno para la página de inicio de sesión.</div>
+                    <div class="card-author">Autor: Juan Pérez</div>
+                </div>
+
+>>>>>>> review-organizado
                 <div class="card card-design-interface">
                     <img src="https://via.placeholder.com/300" alt="Diseño de la página principal">
                     <div class="card-description">Página principal con un enfoque minimalista para mejorar la navegación.</div>
                     <div class="card-author">Autor: Sofía Rodríguez</div>
                 </div>
+<<<<<<< HEAD
                 
+=======
+
+>>>>>>> review-organizado
                 <div class="card card-design-interface">
                     <img src="https://via.placeholder.com/300" alt="Diseño de la página de productos">
                     <div class="card-description">Diseño de la galería de productos, optimizado para la búsqueda por categorías.</div>
@@ -238,6 +280,7 @@
                     <div class="card-author">Autor: Elena Fernández</div>
                 </div>
             </div>
+<<<<<<< HEAD
         `;
         
         // Función para mostrar la sección correcta
@@ -256,5 +299,12 @@
         });
 
     </script>
+=======
+        </section>
+
+    </main>
+
+    <script src="js/main.js"></script>
+>>>>>>> review-organizado
 </body>
 </html>
