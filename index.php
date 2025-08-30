@@ -39,7 +39,7 @@
     </header>
     <p class="card-text">Bienvenido a nuestras historias de usuario</p>
     <!-- Cambia el destino del botón si quieres ir a otra página o sección -->
-    <a class="card-btn" href="labels/joshue.php">Abrir</a>
+    <a class="card-btn" href="labelshistorias/joshue.php">Abrir</a>
   </article>
 
   <!-- Tarjeta 2 -->
@@ -52,7 +52,7 @@
       
     </header>
     <p class="card-text">Bienvenido a nuestras historias de usuario</p>
-    <a class="card-btn" href="colaborador2.html">Abrir</a>
+    <a class="card-btn" href="labelshistorias/dereck.php">Abrir</a>
   </article>
 
   <!-- Tarjeta 3 -->
@@ -65,7 +65,7 @@
       
     </header>
     <p class="card-text">Bienvenido a nuestras historias de usuario</p>
-    <a class="card-btn" href="colaborador3.html">Abrir</a>
+    <a class="card-btn" href="labelshistorias/Marlon.php">Abrir</a>
   </article>
 
   <!-- Tarjeta 4 -->
@@ -78,7 +78,7 @@
      
     </header>
     <p class="card-text">Bienvenido a nuestras historias de usuario</p>
-    <a class="card-btn" href="colaborador4.html">Abrir</a>
+    <a class="card-btn" href="labelshistorias/Kyotto.php">Abrir</a>
   </article>
 
   <!-- Tarjeta 5 -->
@@ -91,7 +91,7 @@
       
     </header>
     <p class="card-text">Bienvenido a nuestras historias de usuario</p>
-    <a class="card-btn" href="colaborador5.html">Abrir</a>
+    <a class="card-btn" href="labelshistorias/Lasso.php">Abrir</a>
   </article>
 
 </div>

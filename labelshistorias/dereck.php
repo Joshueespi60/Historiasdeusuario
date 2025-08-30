@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/historias.css">
 </head>
 
-<!-- 👇 CLASE para aplicar estilos solo en páginas de labels -->
+<!-- Aplica estilo solo en páginas de labels -->
 <body class="labels-page">
 
     <header>
@@ -24,58 +24,58 @@
     <main class="content-section">
         <!-- Historias de usuario -->
         <section id="user-stories" class="tab-section active">
-            <h2>Historia de Usuario Joshue</h2>
+            <h2>Historia de Usuario Dereck</h2>
 
             <!-- Historias (5 tarjetas) -->
                 <div class="stories-grid">
 
                 <!-- 1 -->
                 <article class="story-card is-highlight">
-                    <header class="story-header">Registro de usuario</header>
+                    <header class="story-header">Perfil de vendedor universitario</header>
                     <div class="story-body">
-                    <p><span class="kw">Como</span> cliente nuevo,</p>
-                    <p><span class="kw">Quiero</span> registrarme fácilmente en la tienda virtual con mi correo o redes sociales,</p>
-                    <p><span class="kw">Para</span> poder crear una cuenta y realizar compras de forma más rápida en futuras visitas.</p>
+                    <p><span class="kw">Como</span> estudiante vendedor,</p>
+                    <p><span class="kw">Quiero</span> crear un perfil con mi nombre, carrera y contacto,</p>
+                    <p><span class="kw">Para</span> que los compradores dentro de la universidad confíen en mis publicaciones y me identifiquen fácilmente.</p>
                     </div>
                 </article>
 
                 <!-- 2 -->
                 <article class="story-card">
-                    <header class="story-header">Búsqueda de productos</header>
+                    <header class="story-header">Publicación de productos</header>
                     <div class="story-body">
-                    <p><span class="kw">Como</span> comprador,</p>
-                    <p><span class="kw">Quiero</span> utilizar un buscador con filtros (precio, categoría, marca, valoración),</p>
-                    <p><span class="kw">Para</span> encontrar rápidamente el producto que más se ajuste a mis necesidades.</p>
+                    <p><span class="kw">Como</span> usuario,</p>
+                    <p><span class="kw">Quiero</span> subir productos con fotos, descripción y precio,</p>
+                    <p><span class="kw">Para</span> que otros miembros de la universidad puedan ver claramente lo que ofrezco.</p>
                     </div>
                 </article>
 
                 <!-- 3 -->
                 <article class="story-card">
-                    <header class="story-header">Carrito de compras</header>
+                    <header class="story-header">Chat interno seguro</header>
                     <div class="story-body">
-                    <p><span class="kw">Como</span> usuario,</p>
-                    <p><span class="kw">Quiero</span> agregar, eliminar y modificar la cantidad de productos en mi carrito,</p>
-                    <p><span class="kw">Para</span> organizar mi compra antes de proceder al pago.</p>
+                    <p><span class="kw">Como</span> comprador,</p>
+                    <p><span class="kw">Quiero</span> comunicarme con el vendedor mediante un chat dentro de la plataforma,</p>
+                    <p><span class="kw">Para</span>  resolver dudas y coordinar la entrega sin necesidad de compartir datos personales externos.</p>
                     </div>
                 </article>
 
                 <!-- 4 -->
                 <article class="story-card">
-                    <header class="story-header">Métodos de pago</header>
+                    <header class="story-header">Sistema de valoraciones</header>
                     <div class="story-body">
                     <p><span class="kw">Como</span> cliente,</p>
-                    <p><span class="kw">Quiero</span> contar con múltiples métodos de pago (tarjeta, transferencia, pago en efectivo al recibir, billeteras digitales),</p>
-                    <p><span class="kw">Para</span> elegir la opción más conveniente y segura al momento de pagar.</p>
+                    <p><span class="kw">Quiero</span> dejar una calificación y comentario sobre mi experiencia con un vendedor,</p>
+                    <p><span class="kw">Para</span> ayudar a otros estudiantes a identificar a los más confiables en la plataforma.</p>
                     </div>
                 </article>
 
                 <!-- 5 -->
                 <article class="story-card">
-                    <header class="story-header">Seguimiento del pedido</header>
+                    <header class="story-header">Puntos de entrega dentro de la universidad</header>
                     <div class="story-body">
                     <p><span class="kw">Como</span> comprador,</p>
-                    <p><span class="kw">Quiero</span> recibir notificaciones por correo o en la aplicación sobre el estado de mi pedido (confirmación, en camino, entregado),</p>
-                    <p><span class="kw">Para</span> estar informado del progreso de mi compra hasta la entrega final.</p>
+                    <p><span class="kw">Quiero</span> seleccionar un punto de entrega dentro del campus (biblioteca, cafetería, áreas comunes),</p>
+                    <p><span class="kw">Para</span> facilitar la entrega de los productos de forma segura y práctica.</p>
                     </div>
                 </article>
 
@@ -128,4 +128,3 @@
     <script src="../js/main.js"></script>
 </body>
 </html>
-          
