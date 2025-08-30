@@ -30,31 +30,31 @@
             <div class="cards-grid">
 
                 <div class="card card-design-interface" style="background-color: lightblue;">
-                    <img src="../imagenes/3.png" alt="Diseño de interfaz de login">
+                    <img src="../imagenes/23.jpg" alt="Diseño de interfaz de login">
                     <div class="card-description">Perfil de vendedor universitario</div>
                     <div class="card-author">Autor: VERA DERECK</div>
                 </div>
 
                 <div class="card card-design-interface">
-                    <img src="../imagenes/4.png" alt="Diseño de la página principal">
+                    <img src="../imagenes/24.jpg" alt="Diseño de la página principal">
                     <div class="card-description">Publicación de productos</div>
                     <div class="card-author">Autor: VERA DERECK</div>
                 </div>
 
                 <div class="card card-design-interface">
-                    <img src="../imagenes/5.png" alt="Diseño de la página de productos">
+                    <img src="../imagenes/25.jpg" alt="Diseño de la página de productos">
                     <div class="card-description">Chat interno seguro</div>
                     <div class="card-author">Autor: VERA DERECK</div>
                 </div>
 
                 <div class="card card-design-interface">
-                    <img src="../imagenes/6.png" alt="Diseño de carrito de compras">
+                    <img src="../imagenes/26.jpg" alt="Diseño de carrito de compras">
                     <div class="card-description">Sistema de valoraciones</div>
                     <div class="card-author">Autor: VERA DERECK</div>
                 </div>
 
                 <div class="card card-design-interface">
-                    <img src="../imagenes/7.png" alt="Diseño del perfil de usuario">
+                    <img src="../imagenes/27.jpg" alt="Diseño del perfil de usuario">
                     <div class="card-description">Puntos de entrega dentro de la universidad</div>
                     <div class="card-author">Autor: VERA DERECK</div>
                 </div>
