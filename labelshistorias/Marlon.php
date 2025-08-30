@@ -13,13 +13,15 @@
 <!-- Aplica estilo solo en páginas de labels -->
 <body class="labels-page">
 
-    <header>
-        <h1>Sistema de Comercio Universitario Transacción Interna</h1>
-        <nav>
-            <a href="../index.php">Historias de usuario</a>
-            <a href="#interfaces">Diseño de interfaces</a>
-        </nav>
-    </header>
+  <header>
+          <h1>Sistema de Comercio Universitario Transacción Interna</h1>
+          <nav>
+            <!-- Lleva a la sección "Historias de usuario" del index -->
+            <a href="../index.php#user-stories">Historias de usuario</a>
+            <!-- Lleva a la sección "Diseño de interfaces" del index -->
+            <a href="../index.php#interfaces">Diseño de interfaces</a>
+          </nav>
+        </header>
 
     <main class="content-section">
         <!-- Historias de usuario -->
@@ -82,47 +84,7 @@
             </div>
         </section>
 
-        <!-- Diseño de interfaces (opcional en esta página) -->
-        <section id="interfaces" class="tab-section">
-            <h2>Diseño de interfaces</h2>
-            <div class="cards-grid">
-                <div class="card card-design-interface" style="background-color: lightblue;">
-                    <img src="../imagenes/login.png" alt="Diseño de interfaz de login">
-                    <div class="card-description">Un diseño de interfaz simple y moderno para la página de inicio de sesión.</div>
-                    <div class="card-author">Autor: Juan Pérez</div>
-                </div>
-
-                <div class="card card-design-interface">
-                    <img src="https://via.placeholder.com/300" alt="Diseño de la página principal">
-                    <div class="card-description">Página principal con un enfoque minimalista para mejorar la navegación.</div>
-                    <div class="card-author">Autor: Sofía Rodríguez</div>
-                </div>
-
-                <div class="card card-design-interface">
-                    <img src="https://via.placeholder.com/300" alt="Diseño de la página de productos">
-                    <div class="card-description">Diseño de la galería de productos, optimizado para la búsqueda por categorías.</div>
-                    <div class="card-author">Autor: Luis González</div>
-                </div>
-
-                <div class="card card-design-interface">
-                    <img src="https://via.placeholder.com/300" alt="Diseño de carrito de compras">
-                    <div class="card-description">Una vista detallada del carrito de compras, con opciones de pago seguras.</div>
-                    <div class="card-author">Autor: Ana Martínez</div>
-                </div>
-
-                <div class="card card-design-interface">
-                    <img src="https://via.placeholder.com/300" alt="Diseño del perfil de usuario">
-                    <div class="card-description">Interfaz del perfil de usuario con acceso rápido a su historial y configuraciones.</div>
-                    <div class="card-author">Autor: David Sánchez</div>
-                </div>
-
-                <div class="card card-design-interface">
-                    <img src="https://via.placeholder.com/300" alt="Diseño de notificaciones">
-                    <div class="card-description">Un diseño claro para las notificaciones del sistema y mensajes de confirmación.</div>
-                    <div class="card-author">Autor: Elena Fernández</div>
-                </div>
-            </div>
-        </section>
+       
     </main>
 
     <script src="../js/main.js"></script>

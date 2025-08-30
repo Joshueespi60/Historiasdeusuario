@@ -13,13 +13,15 @@
 <!-- Aplica estilo solo en páginas de labels -->
 <body class="labels-page">
 
-    <header>
-        <h1>Sistema de Comercio Universitario Transacción Interna</h1>
-        <nav>
-            <a href="../index.php">Historias de usuario</a>
-            <a href="#interfaces">Diseño de interfaces</a>
-        </nav>
-    </header>
+      <header>
+          <h1>Sistema de Comercio Universitario Transacción Interna</h1>
+          <nav>
+            <!-- Lleva a la sección "Historias de usuario" del index -->
+            <a href="../index.php#user-stories">Historias de usuario</a>
+            <!-- Lleva a la sección "Diseño de interfaces" del index -->
+            <a href="../index.php#interfaces">Diseño de interfaces</a>
+          </nav>
+        </header>
 
     <main class="content-section">
         <!-- Historias de usuario -->
