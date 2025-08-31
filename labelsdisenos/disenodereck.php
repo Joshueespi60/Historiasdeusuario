@@ -32,7 +32,7 @@
                 <div class="card card-design-interface" style="background-color: lightblue;">
                     <img src="../imagenes/23.jpg" alt="Diseño de interfaz de login">
                     <div class="card-description">Perfil de vendedor universitario</div>
-                    <div class="card-author">Autor: VERA DERECK</div>
+                    <div class="card-author">Autor: VERA DERECKK</div>
                 </div>
 
                 <div class="card card-design-interface">
